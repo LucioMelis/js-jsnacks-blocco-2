@@ -7,11 +7,11 @@ fino a quando ne avrà tanti quanti l’altro.
 */
 
 // Crea due array che hanno un numero di elementi diversi.
-let arrayNumeri1 = [1, 2, 3, 4, 5];
+const arrayNumeri1 = [1, 2, 3, 4, 5];
 const arrayNumeri2 = [6, 7, 8, 9, 10, 11, 12, 13];
 
 // Aggiungi elementi casuali all’array che ha meno elementi, 
-let numeriCasuali = Math.floor(Math.random());
+let numeriCasuali = Math.floor(Math.random() * 20);
 
 let lunghezzaRaggiunta = false;
 
