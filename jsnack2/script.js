@@ -1,14 +1,14 @@
 console.log('JS OK');
 
 /*
-Il software deve chiedere per 5 volte all’utente di inserire un numero. 
+Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while.
 */
 
 
-// ESEMPIO FOR 
-/*
+// ESEMPIO FOR
+
 
 let sommaTotale = 0;
 
@@ -24,14 +24,14 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log(sommaTotale);
-*/
-
-
 
 // ESEMPIO WHILE 
 
+/*
+
 let sommaTotale = 0;
 let i = 0;
+
 while (i < 5) {
 
     let numeroUtente;
@@ -44,3 +44,4 @@ while (i < 5) {
 }
 
 console.log(sommaTotale);
+*/
